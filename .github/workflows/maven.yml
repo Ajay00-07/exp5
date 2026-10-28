@@ -23,3 +23,6 @@ jobs:
 
       - name: Compile Java program
         run: javac hello.java
+
+      - name: Run Java program
+        run: java hello
